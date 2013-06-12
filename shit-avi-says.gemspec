@@ -10,7 +10,8 @@ SPEC = Gem::Specification.new do |s|
   s.summary = "Post shit avi says on Tumblr through the command line"
   s.rubyforge_project = "shit-avi-says"
   s.homepage = "https://github.com/awaxman11/shitavisays-gem"
-  s.files = ['bin/avi', 'lib/avi.rb']
-  s.bindir = 'bin'
-  s.executable = 'avi'
+  s.files = ['bin/shitavisays']
+  s.bindir = '/usr/bin'
+  s.executable = 'shitavisays'
+  s.add_dependency('tumblr-rb', '>=2.1.1')
 end

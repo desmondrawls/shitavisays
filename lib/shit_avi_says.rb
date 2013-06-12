@@ -1,4 +1,4 @@
-class Avi
+class ShitAviSays
     #Any command Line options set are passed in as array argv
     # You cannot have arguments as CONSTANTS plus if it was 
     # ARGV it would clash with the built in ARGV.
