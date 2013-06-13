@@ -2,7 +2,7 @@ require 'rubygems'
 
 SPEC = Gem::Specification.new do |s|
   s.name = "shit-avi-says"
-  s.version = "0.1.3"
+  s.version = "0.2.0"
   s.author = "Ice Breakers"
   s.email = "adam.waxman@flatironschool.com"
   s.platform = Gem::Platform::RUBY
@@ -11,7 +11,7 @@ SPEC = Gem::Specification.new do |s|
   s.rubyforge_project = "shit-avi-says"
   s.homepage = "https://github.com/awaxman11/shitavisays-gem"
   s.files = ['bin/shitavisays']
-  s.bindir = '/usr/bin'
+  s.bindir = './bin'
   s.executable = 'shitavisays'
   s.add_dependency('tumblr-rb', '>=2.1.1')
 end
