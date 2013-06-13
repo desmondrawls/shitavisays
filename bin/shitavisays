@@ -3,7 +3,7 @@
 lib = File.expand_path(File.dirname(__FILE__) + '/../lib')
 $LOAD_PATH.unshift(lib) if File.directory?(lib) && !$LOAD_PATH.include?(lib)
 
-require 'shit_avi_says.rb'
+load 'shit_avi_says.rb'
 
 shit_avi_says = ShitAviSays.new(ARGV)
 shit_avi_says.post
