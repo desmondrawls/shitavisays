@@ -42,6 +42,7 @@ class ShitAviSays
                     if line == "configured"
                         puts "What shit did Avi say??"
 
+                        
                         command = gets.chomp
 
                         if command
