@@ -6,4 +6,4 @@ $LOAD_PATH.unshift(lib) if File.directory?(lib) && !$LOAD_PATH.include?(lib)
 load 'shit_avi_says.rb'
 
 shit_avi_says = ShitAviSays.new(ARGV)
-shit_avi_says.post
+
